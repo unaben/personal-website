@@ -2,7 +2,129 @@
   border-top: 1px solid gray;
 }
 
-.testimonial-container{
-    height: fit-content;
+.testimonial-container {
+  height: fit-content;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text-container {
+  margin: 20px auto;
+}
+
+.profile-text h2 {
+  font-family: cursive;
+  /* font-weight: 100; */
+  font-style: normal;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-main {
+  background-color: #f3e7cd;
+  width: 100vw;
+  height: fit-content;
+  align-items: center;
+  justify-content: flex-end;
+  /* margin-left: auto;
+    margin-right: auto; */
+  display: flex;
+  min-height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.child-one {
+  position: relative;
+  background-color: whitesmoke;
+  background-image: url("https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+  min-width: 650px;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 5px gray;
+  margin-right: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  /* z-index: 1000; */
+}
+
+.child-two {
+  background-color: #ded6d3;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 5px gray;
+  /* z-index: 10;
+    z-index: 500; */
+  position: absolute;
+  bottom: 20px;
+  left: -550px;
+  padding: 50px;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 30px;
+}
+
+p {
+  font-weight: 400px;
+  font-family: cursive;
+  font-size: x-large;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: larger;
+  margin-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button {
+  padding-bottom: auto;
+  padding-top: auto;
+  background-color: #264c55;
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+}
+
+button a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  justify-self: flex-end;
+}
+
+#profile,
+#testimonial {
+  background-color: #f3e7cd;
+}
+
+@media only screen and (max-width: 1024px) {
+  .child-one {
+    min-width: 600px;
+  }
+  .child-two {
+    position: absolute;
+    width: 60%;
+    bottom: 20px;
+    left: -380px;
+    padding: 50px;
+  }
+}
