@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Dancing+Script:wght@400;500;700&family=Nunito:wght@200&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,800;1,100;1,300;1,400;1,600;1,700&family=Sansita+Swashed:wght@300;500&family=Shadows+Into+Light&display=swap');
 .border-line {
   border-top: 1px solid gray;
 }
@@ -16,14 +17,13 @@
   margin: 20px auto;
 }
 
-.profile-text h2 {
-  font-family: cursive;
-  /* font-weight: 100; */
+.profile-text h2 {  
   font-style: normal;
   letter-spacing: 0.01em;
   text-transform: none;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Dancing Script', cursive;
 }
 
 .container-main {
@@ -69,19 +69,19 @@
   padding: 50px;
 }
 
-h2 {
+.child-two h2 {
   font-family: "Times New Roman", Times, serif;
   margin-bottom: 30px;
 }
 
-p {
+.child-two p {
   font-weight: 400px;
   font-family: cursive;
   font-size: x-large;
   margin-bottom: 30px;
 }
 
-h5 {
+.child-two h5 {
   font-size: larger;
   margin-bottom: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -106,13 +106,16 @@ button a {
   text-align: center;
 }
 
+.app-container {
+  background-color: #f3e7cd;
+}
+
 .end {
   display: flex;
   justify-self: flex-end;
 }
 
-#profile,
-#testimonial {
+#profile, .profile-container {
   background-color: #f3e7cd;
 }
 
