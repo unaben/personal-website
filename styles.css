@@ -19,6 +19,10 @@
   padding: 0;
 }
 
+.bg-menu{
+    background-color: #f3e7cd;
+}
+
 .text-container {
   margin: 20px auto;
 }
